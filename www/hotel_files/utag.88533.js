@@ -1,0 +1,4 @@
+//tealium universal tag - utag.88533 ut4.0.201809071900, Copyright 2018 Tealium.com Inc. All Rights Reserved.
+try{(function(id,loader,u){u=utag.o[loader].sender[id]={};u.ev={'view':1};u.qsp_delim="&";u.kvp_delim="=";u.data={};u.data.pid="1195";u.map={"language_id":"ln","dom.pathname":"ph","sc_page_title":"pgt","visitor_id":"uex"};u.extend=[];u.send=function(a,b){if(u.ev[a]||typeof u.ev.all!="undefined"){var c,d,e,f;c=[];for(d in utag.loader.GV(u.map)){if(typeof b[d]!=="undefined"&&b[d]!==""){e=u.map[d].split(",");for(f=0;f<e.length;f++){c.push(e[f]+u.kvp_delim+encodeURIComponent(b[d]));u.data[e[f]]=b[d];}}}
+u.base_url="//tag.yieldoptimizer.com/ps/ps?t=s&p="+u.data.pid+"&pg=ot&";u.s=document.getElementsByTagName("script")[0];u.scr=document.createElement("script");u.scr.type="text/javascript";u.scr.src=u.base_url+c.join(u.qsp_delim);u.s.parentNode.insertBefore(u.scr,u.s);}}
+utag.o[loader].loader.LOAD(id);})('88533','hyatt.main');}catch(e){}
