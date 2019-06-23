@@ -14436,9 +14436,8 @@
                     class="dg-NavbarHeader-logo logo ">
                     <a class="dg-NavbarHeader-logoLink" title="Smarter hotel booking"
                         href="https://www.agoda.com/en-gb/">
-                        <img class="dg-NavbarHeader-logoImage" src="./bookings_files/agoda-logo.svg" title="Agoda"
-                            alt="Agoda"
-                            onerror="this.src=&#39;https://cdn6.agoda.net/images/mvc/logo-grey.png&#39;;this.onerror=null;">
+                        
+                            <img src="./home_files/sky-logo-header.png" class="dg-NavbarHeader-logoImage"  alt="Hyatt" class="logo-full">
                         <img id="secLogo" data-selenium="header-logo-secondary"
                             class="dg-NavbarHeader-secondaryLogoImage secondary" title="Agoda"
                             src="./bookings_files/logo-en.svg">
@@ -16457,6 +16456,18 @@
         window.RedirectBanners = null;
     </script>
 
+    <style>
+        .dg-NavbarHeader{
+            background: #313131;  
+        }
+
+        html .ui-body-a .ui-btn.ui-btn-active{
+            background: #8e7037;
+            border: none;
+        }
+    
+    </style>
+
 
 
     <style>
@@ -16471,7 +16482,7 @@
         $('[data-rel="back"').click(function(e){
             setTimeout(function(){
                 alert("Resell order successfully placed!")
-                window.location.href = "hotel.html"
+                window.location.href = "hotel_with_bids.html"
             }, 1000)
         })
     

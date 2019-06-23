@@ -1258,7 +1258,7 @@
 
                     </div>
                     <a href="https://www.hyatt.com/" data-locator="logo-full">
-                        <img src="./hotel_files/horizontal_hc.svg" alt="Hyatt" class="logo-full">
+                        <img src="./home_files/sky-logo-header.png" alt="Hyatt" class="logo-full">
                     </a>
                 </div>
                 <div class="header-right" data-locator="header-right">
@@ -3472,7 +3472,7 @@
 
 
                                     <div class="hotel-name-text b-text_display-1 b-text_weight-bold">
-                                        Hyatt House San Juan
+                                        Hyatt Regency Coral Gables
                                     </div>
 
                                     <div class="b-text_copy-2 b-mt1">
@@ -5741,7 +5741,7 @@
                     
                     </div>
             
-                    <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-active" data-rel="back">Submit</a>
+                    <a href="#" class="i btn btn-lg btn-warn ui-link" style="width: 100%;text-align: center;" data-rel="back">Submit</a>
                 </div>
 
 
@@ -5755,9 +5755,22 @@
 
 
 
+                <script>
+                        $('[data-rel="back"').click(function(e){
+                            setTimeout(function(){
+                                alert("Bid successfully placed! Please wait for the reseller will review your bid and respond to you.")
+                                window.location.href = 'bookings.1.html'
+                            }, 1000)
+                        })
+                    
+                    </script>
 
 
+<style>
+.ui-btn-active{
 
+}
+</style>
 
 
 </body>
